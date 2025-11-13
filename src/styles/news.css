@@ -1,0 +1,97 @@
+.news-section {
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.news-section h2 {
+    color: #f17732;
+}
+
+.news-card {
+    background: #ffff;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    padding: 10px;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.news-card .person-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.news-card .send button {
+    background-color: rgb(86, 90, 207);
+    width: 40%;
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: 2s;
+}
+
+.news-card .send button:hover {
+    background-color: rgb(86, 90, 207, 50%);
+}
+
+.news-section .anmation .anone {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    animation: rotate 8s linear infinite;
+}
+
+.news-section .anmation .antwo {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    animation: float 4s ease-in-out infinite;
+}
+
+.news-section .anmation .anthree {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    animation: float 4s ease-in-out infinite;
+}
+
+.news-section .anmation .anfour {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width:992px) {
+    .anmation {
+        display: none;
+    }
+}

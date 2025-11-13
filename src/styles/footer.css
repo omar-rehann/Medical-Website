@@ -1,0 +1,145 @@
+.footer {
+    background: linear-gradient(135deg, #1e3a8a, #1e40af);
+    color: #fff;
+    padding: 50px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-about h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #60a5fa;
+}
+
+.footer-about p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.contact-info h4 {
+    margin: 15px 0 8px;
+    color: #93c5fd;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-links h4,
+.footer-services h4,
+.footer-subscribe h4 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: #93c5fd;
+}
+
+.footer-links ul,
+.footer-services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li,
+.footer-services li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #e0f2fe;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #60a5fa;
+}
+
+.footer-services li {
+    color: #e0f2fe;
+    position: relative;
+    padding-left: 15px;
+}
+
+.footer-services li::before {
+    content: "•";
+    color: #60a5fa;
+    position: absolute;
+    left: 0;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.subscribe-form input {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.subscribe-form button {
+    padding: 12px;
+    background: #60a5fa;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.subscribe-form button:hover {
+    background: #3b82f6;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+
+/* متجاوب للشاشات الصغيرة */
+
+@media (max-width: 992px) {
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .subscribe-form {
+        align-items: center;
+    }
+    .subscribe-form input,
+    .subscribe-form button {
+        width: 100%;
+        max-width: 300px;
+    }
+}

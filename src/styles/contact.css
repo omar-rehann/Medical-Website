@@ -1,0 +1,106 @@
+.content {
+    padding: 40px 0;
+    background: #f8f9fa;
+}
+
+.form {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .07);
+    overflow: hidden;
+}
+
+.col-md-6 {
+    padding: 40px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color .3s;
+}
+
+.form input:focus,
+.form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, .15);
+}
+
+.form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+.form button:hover {
+    background: #0056b3;
+}
+
+.informtion h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: .5rem;
+}
+
+.informtion h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 2rem;
+}
+
+.loction h4,
+.email h4,
+.follow h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: .5rem;
+}
+
+.loction p,
+.email p {
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+}
+
+.social {
+    display: flex;
+    gap: 12px;
+}
+
+.follow i {
+    color: black;
+    margin: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        padding: 30px;
+    }
+    .informtion h2 {
+        font-size: 1.75rem;
+    }
+    .informtion h3 {
+        font-size: 1.35rem;
+    }
+}

@@ -1,0 +1,146 @@
+.work {
+    padding-left: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.work .continer {
+    text-align: center;
+}
+
+.work .continer h2 {
+    color: #f17732;
+}
+
+.work .continer h1 {
+    color: #5559ce;
+}
+
+.work .content {
+    padding: 20px;
+}
+
+.content .card {
+    position: relative;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content .card::before,
+.content .card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #f17732;
+    opacity: 0;
+    transform: scale(0.8);
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    z-index: 0;
+}
+
+.content .card:hover::before,
+.content .card:hover::after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.content .card * {
+    position: relative;
+    z-index: 1;
+}
+
+.content .col-md-4:nth-child(2) .card {
+    background-color: #f17732;
+    color: #fff;
+    box-shadow: 0 10px 25px rgba(241, 119, 50, 0.4);
+}
+
+.content .card .buutons button {
+    background-color: transparent;
+    border: 2px solid #f17732;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.content .card:hover .buutons button {
+    background-color: #fff;
+    color: #f17732;
+}
+
+.content .col-md-4:nth-child(2) .card .buutons button {
+    background-color: #fff;
+    color: #f17732;
+}
+
+.content .col-md-4:nth-child(2) .card .buutons button:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+.work .anmation .frist img,
+.work .anmation .second img,
+.work .anmation .three img,
+.work .anmation .four img {
+    width: 100px;
+    position: absolute;
+}
+
+.work .anmation .frist img {
+    top: 15%;
+    transform: translateY(-30%);
+    left: 2%;
+    z-index: -2;
+}
+
+.work .anmation .second img {
+    bottom: 0px;
+    left: 0px;
+}
+
+.work .anmation .three img {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+}
+
+.work .anmation .four img {
+    left: 90%;
+    top: 10%;
+    transform: translateX(-50%);
+    bottom: 10%;
+}
+
+.work img {
+    animation: floatUpDown 3s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-14px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width:992px) {
+    .work .anmation {
+        display: none;
+    }
+    .work .text {
+        padding: 10px;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,79 @@
+.pagetwo {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+    height: 55vh;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.banner-content h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    letter-spacing: 1px;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.breadcrumb-icon {
+    color: #60a5fa;
+    font-size: 1.2rem;
+}
+
+.breadcrumb span {
+    color: #e2e8f0;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb .current {
+    color: #60a5fa;
+    font-weight: 700;
+}
+
+.separator {
+    color: #94a3b8;
+}
+
+.breadcrumb span:not(.current):hover {
+    color: #60a5fa;
+}
+
+@media (max-width: 768px) {
+    .banner-content h1 {
+        font-size: 2.5rem;
+    }
+    .breadcrumb {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+    .pageone {
+        height: 45vh;
+        min-height: 350px;
+    }
+}

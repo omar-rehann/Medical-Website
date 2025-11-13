@@ -1,0 +1,50 @@
+.hover-scale {
+    transition: all 0.4s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+.hover-border-primary {
+    transition: all 0.3s;
+}
+
+.hover-border-primary:hover {
+    border-color: #5e60ce !important;
+    transform: translateY(-5px);
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.bg-gradient {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+}
+
+.content {
+    color: black;
+}
+
+.content .container .tags {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content .container .tags .words {
+    padding: 10px;
+}
+
+.content .container .tags .words span {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 10px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 10px;
+}

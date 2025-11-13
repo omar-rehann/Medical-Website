@@ -1,0 +1,108 @@
+.back {
+    padding: 20px;
+    position: relative;
+}
+
+.back .text {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.back .image {
+    text-align: center;
+}
+
+.back .image img {
+    width: 500px;
+}
+
+@media (max-width:992px) {
+    .back .image img {
+        width: 100%;
+    }
+}
+
+.back .text h4,
+.back .text h1 {
+    color: #5559ce;
+}
+
+.back .text button {
+    background-color: #f17732;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    width: 30%;
+    transition: 2s;
+}
+
+.back .text button:hover {
+    background-color: rgb(241, 119, 50, 50%);
+}
+
+.back .anmation .frist img,
+.back .anmation .second img,
+.back .anmation .three img,
+.back .anmation .four img {
+    width: 100px;
+    position: absolute;
+}
+
+.back .anmation .frist img {
+    top: 15%;
+    transform: translateY(-30%);
+    left: 10%;
+}
+
+.back .anmation .second img {
+    bottom: 0px;
+    left: 0px;
+}
+
+.back .anmation .three img {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+}
+
+.back .anmation .four img {
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    bottom: 10%;
+}
+
+.back img {
+    animation: floatUpDown 3s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-14px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width:992px) {
+    .back .anmation {
+        display: none;
+    }
+    .back .text {
+        padding: 10px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:767px) {
+    .back .text {
+        padding: 10px;
+        margin-top: 50px;
+    }
+}

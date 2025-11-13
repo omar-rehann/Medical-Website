@@ -1,0 +1,196 @@
+/* 🔹 Banner Section */
+
+.pageone {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/servicedetials.jpg") center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.pageone h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.pageone .breadcrumb {
+    font-size: 18px;
+}
+
+.pageone .breadcrumb span {
+    color: #ddd;
+}
+
+.pageone .breadcrumb .current {
+    color: #60a5fa;
+    font-weight: 600;
+}
+
+
+/* 🔹 Main Content */
+
+.content {
+    padding: 80px 0;
+    background-color: #f9fafc;
+}
+
+.content .text h2 {
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.content .text p {
+    color: #555;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+
+/* 🔹 List Section */
+
+ul.list-unstyled h5 {
+    color: #444;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+ul.list-unstyled h5::before {
+    content: "✓ ";
+    color: #00bfa6;
+}
+
+
+/* 🔹 Progress Bars */
+
+.progress {
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #00bfa6, #0095ff);
+    height: 100%;
+    border-radius: 20px;
+    transition: width 1.2s ease;
+}
+
+
+/* 🔹 FAQ Accordion */
+
+.accordion-button {
+    background-color: #fff;
+    color: #333;
+    font-weight: 600;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #00bfa6;
+    color: #fff;
+}
+
+.accordion-button::after {
+    filter: brightness(0) invert(0.4);
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0) invert(1);
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.accordion-body {
+    background-color: #fafafa;
+    color: #555;
+    line-height: 1.7;
+}
+
+
+/* 🔹 Sidebar Section */
+
+.layes h5 {
+    color: #333;
+    font-weight: 700;
+}
+
+.layes ul li {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 8px 0;
+}
+
+.layes ul li:hover h5 {
+    color: #00bfa6;
+    transform: translateX(5px);
+}
+
+
+/* 🔹 Download Section */
+
+.download h4 {
+    color: #333;
+    font-weight: 700;
+}
+
+.folder {
+    background-color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.folder:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.folder h5 {
+    color: #333;
+    font-size: 16px;
+}
+
+.folder a {
+    text-decoration: none;
+    color: #00bfa6;
+    font-weight: 500;
+}
+
+
+/* 🔹 Responsive Design */
+
+@media (max-width: 992px) {
+    .pageone {
+        padding: 70px 0;
+    }
+    .pageone h1 {
+        font-size: 36px;
+    }
+    .content {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        margin-bottom: 40px;
+    }
+    .text h2 {
+        font-size: 24px;
+    }
+    .text p {
+        font-size: 15px;
+    }
+}
+
+.download i {
+    font-size: 50px;
+    margin-right: 20px;
+}

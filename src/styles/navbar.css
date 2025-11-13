@@ -1,0 +1,17 @@
+.navbarcontent {
+    margin-top: -10px;
+    z-index: 10;
+}
+
+.navbarcontent.active {
+    background-color: #ffffff;
+}
+
+.navbarcontent .navbar .container-fluid ul li a {
+    color: #5559ce;
+    transition: 1s;
+}
+
+.navbarcontent .navbar .container-fluid ul li a:hover {
+    color: orange;
+}

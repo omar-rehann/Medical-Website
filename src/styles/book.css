@@ -1,0 +1,165 @@
+.book {
+    padding: 80px 20px;
+    position: relative;
+}
+
+.booking-form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.book::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 40%;
+    height: 70%;
+    border: 2px solid #585eaa;
+    border-radius: 22px;
+    transform: translateX(-5%);
+    z-index: -2;
+    transform: translateY(14%);
+}
+
+.form-title {
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.booking-form input,
+.booking-form textarea,
+.booking-form select {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 16px;
+    resize: none;
+}
+
+.btn-book {
+    background: #f17732;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-book:hover {
+    background: rgb(241, 119, 50, 80%);
+}
+
+
+/* ---------- Images around the mobile ---------- */
+
+.mobile-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.mobile {
+    width: 100%;
+    animation: floatUpDown 3s ease-in-out infinite;
+}
+
+.around-img,
+.around-img.img1,
+.around-img.img2,
+.around-img.img3,
+.around-img.img4 {
+    position: absolute;
+    width: 80px;
+    animation: floatUpDown 3.5s ease-in-out infinite;
+}
+
+.around-img.img2 {
+    width: 50%;
+    height: 400px;
+}
+
+.img1 {
+    top: 140px;
+    left: 60px;
+}
+
+.img2 {
+    top: 40px;
+    right: -40px;
+}
+
+.img3 {
+    bottom: -20px;
+    left: 20px;
+}
+
+.img4 {
+    bottom: -50px;
+    right: -70px;
+}
+
+@keyframes floatUpDown {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 992px) {
+    .mobile-wrapper {
+        display: none;
+    }
+    .around-img,
+    .around-img.img1,
+    .around-img.img2,
+    .around-img.img3,
+    .around-img.img4 {
+        display: none;
+    }
+}
+
+.book .anmation .second img {
+    width: 100px;
+    position: absolute;
+}
+
+.book .anmation .second img {
+    bottom: 0px;
+    left: 0px;
+}
+
+.book img {
+    animation: floatUpDown 3s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-14px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width:992px) {
+    .book .anmation {
+        display: none;
+    }
+    .book .text {
+        padding: 10px;
+        margin-top: 50px;
+    }
+}

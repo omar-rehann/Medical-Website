@@ -1,0 +1,87 @@
+/* تحسينات إضافية للـ Swiper */
+
+.services-swiper {
+    direction: rtl;
+}
+
+.services-swiper h2 {
+    color: #f17732;
+}
+
+.service-card {
+    transition: all 0.3s ease;
+    cursor: grab;
+}
+
+.service-card:active {
+    cursor: grabbing;
+}
+
+.service-card p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    hyphens: auto;
+    text-align: left;
+    direction: ltr;
+    /* لأن الوصف بالإنجليزي */
+}
+
+
+/* تحسين الـ scrollbar إذا ظهرت */
+
+.service-card p::-webkit-scrollbar {
+    display: none;
+}
+
+.service-card p {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.services-swiper p {
+    color: #555;
+    max-width: 600px;
+    margin: 0px auto
+}
+
+
+/* أزرار التنقل */
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 10px;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: white;
+    transform: scale(1.15);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* نقاط الـ pagination */
+
+.swiper-pagination-bullet {
+    background: #ddd;
+    opacity: 1;
+    width: 11px;
+    height: 11px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #4ECDC4;
+    transform: scale(1.4);
+}

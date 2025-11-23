@@ -5,7 +5,6 @@ import Navbar from "../component/navbar"
 import ThreeCards from "../component/cards"
 import Doctor from "../component/doctor"
 import News from "../component/news"
-import Footer from "../component/footer"
 
 function Service(){
     return(
@@ -148,7 +147,6 @@ function Service(){
       <ThreeCards/>
       <Doctor/>
       <News/>
-      <Footer/>
         </>
     )
 }

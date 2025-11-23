@@ -21,7 +21,6 @@ import "../styles/blogdetials.css"
 
 
 import News from "../component/news";
-import Footer from "../component/footer";
 
 function BlogDetiailss() {
     return (
@@ -262,7 +261,6 @@ function BlogDetiailss() {
             </div>
 
             <News />
-            <Footer />
         </>
     );
 }

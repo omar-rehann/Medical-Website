@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Medical-Website/static/css/main.85fc0a79.css",
-    "main.js": "/Medical-Website/static/js/main.80595857.js",
+    "main.css": "/Medical-Website/static/css/main.08bd2bbd.css",
+    "main.js": "/Medical-Website/static/js/main.a3a10429.js",
     "static/media/blogdetials.jpg": "/Medical-Website/static/media/blogdetials.d8c3c8e35b95f89900a4.jpg",
     "static/media/frist.png": "/Medical-Website/static/media/frist.7c2bc96d67d3eba1d64a.png",
     "static/media/servicedetials.jpg": "/Medical-Website/static/media/servicedetials.5a7f5c08a94b8b308c29.jpg",
@@ -31,11 +31,11 @@
     "static/media/p1.jpg": "/Medical-Website/static/media/p1.ac173f78b519b3024706.jpg",
     "static/media/girl.png": "/Medical-Website/static/media/girl.eb5c49c523f7d6240d33.png",
     "index.html": "/Medical-Website/index.html",
-    "main.85fc0a79.css.map": "/Medical-Website/static/css/main.85fc0a79.css.map",
-    "main.80595857.js.map": "/Medical-Website/static/js/main.80595857.js.map"
+    "main.08bd2bbd.css.map": "/Medical-Website/static/css/main.08bd2bbd.css.map",
+    "main.a3a10429.js.map": "/Medical-Website/static/js/main.a3a10429.js.map"
   },
   "entrypoints": [
-    "static/css/main.85fc0a79.css",
-    "static/js/main.80595857.js"
+    "static/css/main.08bd2bbd.css",
+    "static/js/main.a3a10429.js"
   ]
 }

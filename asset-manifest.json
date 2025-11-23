@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Medical-Website/static/css/main.85fc0a79.css",
+    "main.js": "/Medical-Website/static/js/main.d9dcc113.js",
+    "static/media/blogdetials.jpg": "/Medical-Website/static/media/blogdetials.d8c3c8e35b95f89900a4.jpg",
+    "static/media/frist.png": "/Medical-Website/static/media/frist.7c2bc96d67d3eba1d64a.png",
+    "static/media/servicedetials.jpg": "/Medical-Website/static/media/servicedetials.5a7f5c08a94b8b308c29.jpg",
+    "static/media/newstwo.jpg": "/Medical-Website/static/media/newstwo.67db6c474a828bd7a0cd.jpg",
+    "static/media/newsthree.jpg": "/Medical-Website/static/media/newsthree.89b8315141d75bd31ced.jpg",
+    "static/media/newsone.jpg": "/Medical-Website/static/media/newsone.a3848a1189e2114e1b47.jpg",
+    "static/media/g4.jpg": "/Medical-Website/static/media/g4.f008bc426fd1826cdede.jpg",
+    "static/media/blogdetailsthree.jpg": "/Medical-Website/static/media/blogdetailsthree.7eb547294db1e78a2604.jpg",
+    "static/media/g5.jpg": "/Medical-Website/static/media/g5.7eb547294db1e78a2604.jpg",
+    "static/media/mobile.png": "/Medical-Website/static/media/mobile.f82d73222992d2101a09.png",
+    "static/media/t1.jpg": "/Medical-Website/static/media/t1.22ac1d594f69ddaf3e08.jpg",
+    "static/media/t2.jpg": "/Medical-Website/static/media/t2.d03a0686030bcd2f05ec.jpg",
+    "static/media/g6.jpg": "/Medical-Website/static/media/g6.c8e86d3c3a3949ffcec7.jpg",
+    "static/media/abouttwo.jpg": "/Medical-Website/static/media/abouttwo.0593bc2fd8a13cf8c19f.jpg",
+    "static/media/t3.jpg": "/Medical-Website/static/media/t3.0d822ecc51b2532abe0e.jpg",
+    "static/media/g3.jpg": "/Medical-Website/static/media/g3.3275b9e609ba175b6d6c.jpg",
+    "static/media/blogdetilstwo.jpg": "/Medical-Website/static/media/blogdetilstwo.2c21a722397dfc7d2854.jpg",
+    "static/media/g2.jpg": "/Medical-Website/static/media/g2.2c21a722397dfc7d2854.jpg",
+    "static/media/g1.jpg": "/Medical-Website/static/media/g1.b7a9e70ea7c20a4d2cb4.jpg",
+    "static/media/aboutone.jpg": "/Medical-Website/static/media/aboutone.ad1ed7ee8284087fe9ee.jpg",
+    "static/media/p4.jpg": "/Medical-Website/static/media/p4.299a41762fa0858a67d3.jpg",
+    "static/media/p2.jpg": "/Medical-Website/static/media/p2.b3958a315dce311a5799.jpg",
+    "static/media/p3.jpg": "/Medical-Website/static/media/p3.b3958a315dce311a5799.jpg",
+    "static/media/team-2.jpg": "/Medical-Website/static/media/team-2.8d4592405df4fc1e912f.jpg",
+    "static/media/team-1.jpg": "/Medical-Website/static/media/team-1.9be3601c41a0796c4564.jpg",
+    "static/media/team-3.jpg": "/Medical-Website/static/media/team-3.9bc8958e33a74ae02351.jpg",
+    "static/media/p1.jpg": "/Medical-Website/static/media/p1.ac173f78b519b3024706.jpg",
+    "static/media/girl.png": "/Medical-Website/static/media/girl.eb5c49c523f7d6240d33.png",
+    "index.html": "/Medical-Website/index.html",
+    "main.85fc0a79.css.map": "/Medical-Website/static/css/main.85fc0a79.css.map",
+    "main.d9dcc113.js.map": "/Medical-Website/static/js/main.d9dcc113.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85fc0a79.css",
+    "static/js/main.d9dcc113.js"
+  ]
+}
